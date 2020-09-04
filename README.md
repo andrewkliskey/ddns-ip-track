@@ -1,8 +1,12 @@
-# ddns-ip-track
+# DDNS-IP-Track
 
 Monitor the changes of the IP address that a domain resolves to.
 
-Default is to check every 5 mins, any changes are recorded into a text file.
+This can be used to monitor how ofter your Dynamic IP address is changing. This is to be used in correlation with a DDNS provider such as duckdns.org.
+
+
+The default config checks every 5 mins, any changes are recorded into a text file.
+
 
 Terminal view:
 
