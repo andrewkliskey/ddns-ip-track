@@ -7,7 +7,7 @@ This can be used to monitor how ofter your Dynamic IP address is changing, when 
 
 The default config checks every 5 mins, any changes are recorded into a text file.
 
-Install prerequisites (Ubuntu/Debian) - pip3-install dnspython:
+Install prerequisites (Ubuntu/Debian):
 ```bash
 sudo apt install python3 python3-pip
 sudo pip3-install dnspython
