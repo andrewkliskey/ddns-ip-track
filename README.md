@@ -18,6 +18,7 @@ Download Python Script then edit domain :
 wget https://raw.githubusercontent.com/andrewkliskey/ddns-ip-track/master/ddns-ip-track.py
 sudo nano ddns-ip-track.py
 ```
+Run:
 ```bash
 python3 ddns-ip-track.py
 ```
