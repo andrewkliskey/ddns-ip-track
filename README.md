@@ -1,4 +1,4 @@
-# DDNS-IP-Track
+# Domain-IP-Track
 
 Monitor the changes of the IP address that a domain resolves to.
 
