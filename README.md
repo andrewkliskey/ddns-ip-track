@@ -7,6 +7,20 @@ This can be used to monitor how ofter your Dynamic IP address is changing, when 
 
 The default config checks every 5 mins, any changes are recorded into a text file.
 
+Install prerequists (Ubuntu/Debian:
+```bash
+sudo apt install python3 python3-pip
+sudo pip3-install dnspython
+```
+
+Download Python Script then edit domain :
+```bash
+wget https://raw.githubusercontent.com/andrewkliskey/ddns-ip-track/master/ddns-ip-track.py
+sudo nano ddns-ip-track.py
+```
+```bash
+python3 ddns-ip-track.py
+```
 
 Terminal view:
 
