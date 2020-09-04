@@ -1,8 +1,8 @@
 # ddns-ip-track
 
-Monitor the changes 
+Monitor the changes of the IP address that a domain resolves to.
 
-Default is to check every 5 mins, any changes recorded in a text file.
+Default is to check every 5 mins, any changes are recorded into a text file.
 
 Terminal view:
 
