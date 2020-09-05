@@ -1,0 +1,12 @@
+version: "3"
+services:
+  ip-track:
+    build:
+      context: .
+    volumes:
+      - "./logs:/usr/src/app/logs"
+    environment:
+      # Enter Domains you wish to track, separated by commas
+      - DOMAIN_LIST=www.example.com, example.com
+      # Interval you wish to wait before re-checking domain
+      - SLEEP=300
